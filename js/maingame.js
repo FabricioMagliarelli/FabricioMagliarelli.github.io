@@ -90,7 +90,7 @@ function selectOption(option) {
 const textNodes = [
     {
         id: 1,
-        text: "El reinado del virtuoso rey Athelstan llego drásticamente a su fin. Su reinado es recordado como el mejor. Trajo abundancia y Paz al pueblo. Pero Su hermano Morkor, Líder de la orden de los Caballeros Oscuros, siempre ansió el trono. Apenas tuvo la oportunidad, inrumpio en el castillo acompañado de su Orden y derrotó a la Guardia Real, asesino a su hermano junto a la reina y todos los herederos, Asiéndose con el total control del reino.",
+        text: "El legendario reino de Skagard no era como cualquier reino. Sus tierras estaban totalmente rodeadas por el bosque encantado Skag, lo que lo mantenía prácticamente aislado de los demás territorios. La familia real de Skagard mantenía buena relación con las Nayades y los Elfos que habitaban el bosque y juntos mantenían a raya a los Goblins, Trolls y las otras viles criaturas de Skag… hasta que Morkor se hizo con el poder. ",
         options: [
             {
                 text: "continuar",
@@ -105,7 +105,7 @@ const textNodes = [
     },
     {
         id: 2,
-        text: "Antes las injusticias del tirano, muchos se levantaron en armas para tratar de derrocarlo, héroes que enfrentaron a Morkor y a su orden de caballeros oscuros en su mismo castillo, pero todos fueron derrotados.",
+        text: "Morkor era el hermano del bondadoso Rey Athelstan y, como dictaba la costumbre, el general de la orden de los Caballeros Oscuros, la unidad militar de elite del reino, cuya misión era hacer incursiones en los bosques y defender al reino. Algunos creen que fue por simple avaricia, otros, que un brujo del bosque envenenó sus oídos, pero aquel día Morkor dirigió su Orden contra el castillo, derroto a la guardia real y mato a su hermano, la reina y a todos los herederos, haciéndose con el Reino.",
         options: [
             {
                 text: "continuar",
@@ -120,7 +120,7 @@ const textNodes = [
     },
     {
         id: 3,
-        text: "Uno de estos Héroes, conocido como “Alexander el Cazador”, Atravesó el castillo del tirano, armado con su espada y escudos legendarios, herencia de su familia y acompañado de su fiel compañero de caza, el gigante lobo Fenril. Su habilidad como espadachín era tan excelente como su habilidad con el arco y logro vencer a todos los caballeros Oscuros. Luego de dejar mal herido al jefe de la Orden, Ferindur, dirijio su espada hacia Morkor, para terminar de una vez con su tiranico gobierno.",
+        text: "No todos los caballeros oscuros estuvieron de acuerdo con la rebelión, y algunos se le opusieron. En particular el Gran Cazador Alexander, reconocido por sus habilidades con el arco, la espada y el gran lobo azul que creio desde cachorro 'Lomo de Plata'. Alexander dirigió una revuelta contra el Tirano. ayudado por las Nayades y Elfos del bosque. Estos le confirieron dos artefactos legendarios capaces de vencer la magia oscura: El escudo de Roble Dorado y La espada élfica Baradun.",
         options: [
             {
                 text: "continuar",
@@ -135,7 +135,7 @@ const textNodes = [
     },
     {
         id: 4,
-        text: "La batalla fue pareja, pero Morkor poco a poco fue ganando ventaja. Su habilidad con la espada era inigualable y logro asestar un golpe terrible contra Alexander, quien mal herido, logro huir a pocas penas del castillo con ayuda de su fiel lobo. Esa fue la única vez que el Reinado de Morkor estuvo a punto de terminar. El sigue en su castillo, gobernando, defendido por Ferindur, el único sobreviviente de su Orden de Caballeros oscuros. En cuanto a Alexander, nunca más se le ha vuelto a ver.",
+        text: "Los rebeldes y sus aliados del bosque iniciaron juntos un asalto contra castillo de Morkor, pero el estaba preparado. Mientras su Orden de caballeros oscuros defendía las puertas del castillo, un ejercito de goblins y trolls, los nuevos aliados del tirano, atacaron a los asediantes desde la retaguardia. ¡Así y todo, los rebeldes presentaron una feroz batalla! Los caballeros de Alexander lograron derrotar a la Orden y llegaron a los aposentos de Morkor, donde se dio el combate mano a mano contra Morkor.",
         options: [
             {
                 text: "continuar",
@@ -150,35 +150,50 @@ const textNodes = [
     },
     {
         id: 5,
-        text: "De todas formas, el reino se sigue oponiendo al tirano y de tanto en cuando, un nuevo Guerrero aparece, con espada y escudo en mano. Tu eres uno de ellos, nacido de humilde casa, armado solo con una espada oxidada y un escudo de madera, pero con la irrevocable convicción de derrocar a Morkor. Comienzas tu viaje. Frente ti se levanta un frondoso bosque ¿que haces?",
+        text: "La pelea fue pareja, pero al final Morkor logro asestar un golpe terrible contra Alexander, dejándolo mal herido. Con ayuda de sus hombres escapo a duras penas del castillo… jamás se le volvió a ver. Las secuelas de aquella batalla fueron devastadoras para el reino. Los elfos y náyades quedaro recluidos en el bosque, ahora dominado por las criaturas malignas. Morkor quedo sin su guardia, pero el pueblo quedo demasiado debilitado como para volverse a levantar contra él y así Skagard quedo estacada durante años.",
         options: [
             {
-                text: "adentrarse en el bosque",
+                text: "continuar",
                 nextNode: 6,
+            },
+            {
+                text: "omitir",
+                nextNode: 7,
             }
         ]
     },
     {
         id: 6,
-        text: "Recorres el bosque. Te abres paso entre los árboles y los matorrales. No es la primeras que lo haces y logras Ubicarte. Sabes que mas al norte esta el Pueblo llamado “Pueblo Negro”, ultimo asentamiento antes del Castillo de Morkor. Te diriges en esa dirección. De repente escuchas las hojas moverse, y de la vegetación en frente, salta un Goblin con daga en mano. Una vil criatura que se aprovecha de los viajeros desprevenidos, asesinándolos y robándoles sus pertenencias. ",
+        text: "Sin embargo, muchos de los sobrevivientes de la gran batalla lograron escapar a tierras lejanas y allí esparcieron las leyendas sobre este escondido reino rodeado por el bosque Skag: '¡Aquel que lograra derortar a Morkor, podría reclamar el Trono'! Tu eres uno de tantos valientos que se aventuraron en el lejano reino, en busca de gloria… y de una corona por supuesto. El gran bosque encantado Skag se yergue frente a ti, ¿Qué harás ahora?",
         options: [
             {
-                text: "desenvainas tu espada y levantas tu escudo!",
+                text: "Entrar al Bosque!",
                 nextNode: 7,
+            },
+        ]
+    },
+    
+    {
+        id: 7,
+        text: "Recorres el bosque. Te abres paso entre los árboles y los matorrales. Logras ubicarte. Sabes que al norte se encuentra el “Pueblo Negro”, ultimo asentamiento antes del Castillo de Morkor. Te diriges en esa dirección. De repente escuchas las hojas moverse, y de la vegetación salta un Goblin con daga en mano. Una vil criatura que se aprovecha de los viajeros desprevenidos, asesinándolos y robándoles sus pertenencias. ",
+        options: [
+            {
+                text: "¡desenvainas tu espada y levantas tu escudo!",
+                nextNode: 8,
                 type: "preBattle",
                 updateEnemy() {
-                    setEnemy("Goblin", 100, 2)
+                    setEnemy("Goblin", 50, 2)
                 }
 
             },
             {
                 text: "huyes despavorido ",
-                nextNode: 8,
+                nextNode: 9,
             }
         ]
     },
     {
-        id: 7,
+        id: 8,
         text: "El Goblin no retrocede, te mira fijo con sed de sangre. Comienza el combate!",
         options: [
             {
@@ -193,29 +208,29 @@ const textNodes = [
             {
                 text: "continuar",
                 type: "postBattle",
-                nextNode: 9,
+                nextNode: 10,
 
             }
 
         ]
     },
     {
-        id: 8,
-        text: "parece que tu irrevocable convicion no era tan... irrevocable, vuelves a tu pueblo a vivir bajo el yugo de Morkor. Habra que esperar a otro guerrero... un poco mas valiente. FIN DEL JUEGO!",
+        id: 9,
+        text: "parece que tu irrevocable convicion no era tan... irrevocable, vuelves a tus tierras y quedas en el olvido. Habra que esperar a otro aventurero... un poco mas valiente. FIN DEL JUEGO!",
         options: [
             {
-                text: "restart",
+                text: "Volver a Empezar",
                 nextNode: -1
             }
         ]
     },
     {
-        id: 9,
+        id: 10,
         text: "Recuperas aire, el combate fue canzador, pero te recompones en la victoria. revisas el cuerpo del goblin y encuentras una bolas con 100 monedas.",
         options: [
             {
-                text: "tomar las monedas y seguir con tu camino",
-                nextNode: 10,
+                text: "Tomar las monedas y seguir con tu camino",
+                nextNode: 11,
                 type: "setPlayer",
                 updatePlayer() {
                     setPlayer(200, player.mainHand, player.offHand, 100),
@@ -226,29 +241,36 @@ const textNodes = [
         ]
     },
     {
-        id: 10,
-        text: "Llegas al Pueblo Negro. te encuentras con bastante movimiento, aunque todos los pueblerinos llevan caras largas. Ves una posada y un burdel, pero no tienens tiempo para eso. Sigues de largo y te diriges a la plaza central del pueblo. Allí encuentras a un herrero, parece habil podrias intercambiar las monedas por mejor equipo. En frente de el ves a un pobre vagabundo, vestido con arapos.",
+        id: 11,
+        text: "Llegas al Pueblo Negro. El lugar esta venido abajo. Todos los campesinos llevan caras largas. Te diriges a la plaza central. Desde allí puedes ver un herrero, parece habil podrias intercambiar las monedas por mejor equipo. En frente de el ves a un pobre vagabundo, vestido con arapos. Y mas alla la salida del pueblo, camino que te lleva directo hasta el castillo de Morkor.",
         options: [
             {
                 text: "Hablar con el herrero a ver que puede ofrecerte",
-                nextNode: 11
+                nextNode: 12
 
 
             },
             {
                 text: "Hablar con el vagabundo.",
-                nextNode: 12
+                nextNode: 13
 
 
+            },
+            {
+                text: "Te diriges al Castillo de Morkor, es hora de terminar tu viaje.",
+                nextNode: 90,
+    
+    
+    
             },
         ]
     },
     {
-        id: 11,
-        text: "El herrero te recibe con una amblia sorrisa:'Bienvenido Guerrero. Veo que te dirijes al castillo de Morkor, muchos valiente como tu pasan por aqui, pero olvidate poder vencer con ese equipo mal trecho. No te preocupes, tengo lo que necesitas. Puedo ofrecerte esta espada y este escudo, pertenecieron al mismo Alexander, yo mismo se las forje. puedo ofresertelos por solo 100 monedas, que dices'?",
+        id: 12,
+        text: "El herrero te recibe con una amblia sorrisa:'Bienvenido Guerrero. Veo que te dirijes al castillo de Morkor, muchos valiente como tu pasan por aqui... pocos vuelven, y ninguno entero jajaja. No te preocupes, tengo lo que necesitas. Puedo ofrecerte esta espada y este escudo, no son las armas legendarias de Alexander pero son de fino hierro. puedo ofresertelos por solo 100 monedas, que dices'?",
         options: [
             {
-                text: "acepta el trato, armas legendarias como estas es todo lo que necesitas para vencer a Morkor, no puedes rechazarlas",
+                text: "aceptas el trato",
                 type: "setPlayer",
                 requiredState: (currentState) => currentState.coins,
                 updatePlayer() {
@@ -256,43 +278,43 @@ const textNodes = [
                         showPlayerState()
                 },
                 setState: { coins: false },
-                nextNode: 13,
+                nextNode: 14,
 
 
 
             },
             {
-                text: "decides pensarlo un poco y sigues recorriendo la plaza",
-                nextNode: 13,
+                text: "decides pensarlo un poco",
+                nextNode: 14,
                 requiredState: (currentState) => currentState.coins
 
             },
             {
-                text: "No te queda una sola moneda, sigues recorriendo la plaza",
-                nextNode: 13,
+                text: "No tienes una sola moneda",
+                nextNode: 14,
                 requiredState: (currentState) => !currentState.coins
 
             },
         ]
     },
     {
-        id: 13,
-        text: "Te encuentras en la plaza central pueblo, ¿que haras ahora?",
+        id: 14,
+        text: "Te encuentras en la plaza central, ¿que haras ahora?",
         options: [{
             text: "Hablar con el herrero",
-            nextNode: 11
+            nextNode: 12
 
 
         },
         {
             text: "Hablar con el vagabundo.",
-            nextNode: 12,
-            requiredState: (currentState) => !currentState.quest && !currentState.negation
+            nextNode: 13,
+            requiredState: (currentState) => !currentState.quest && !currentState.negation && !currentState.legendary
 
         },
         {
             text: "sales en busca del anillo del Vagabundo",
-            nextNode: 15,
+            nextNode: 16,
             requiredState: (currentState) => currentState.quest
 
 
@@ -307,11 +329,11 @@ const textNodes = [
         ]
     },
     {
-        id: 12,
-        text: "te hacercas al vagabundo, el alza su mirada hacia ti. Parece tener una antigua lecion en su brazo derecho y a pesar de su deplorable estado, te llaman la atencion los ojos filosos con los que te mira: -Oh noble guerrero, veo que llevas una bolsa con monedas. El herrero podria darte buenas armas por ese dinero pero... ayudarias a un pobre vagabundo?? hace dias que no como, me entregarias esa bolsa de monedas a mi para poder comprar algo de comida?",
+        id: 13,
+        text: "te acercas al vagabundo, el alza su mirada hacia ti. Parece tener una antigua lesión en su brazo derecho y a pesar de su deplorable estado, te llaman la atención los ojos filosos con los que te mira: -'Oh noble guerrero, veo que llevas una bolsa con monedas. El herrero podría darte buenas armas por ese dinero, pero... ¿ayudarías a un pobre vagabundo como yo? hace días que no cómo, y con el dinero que veo que traes encima podría comer durante semanas. ¿Qué dices?'",
         options: [{
-            text: "Entregarle la bolsa, te quedaras sin nada, pero estaras haciendo una buena accion",
-            nextNode: 14,
+            text: "Entregarle las monedas",
+            nextNode: 15,
             type: "setPlayer",
             requiredState: (currentState) => currentState.coins,
             updatePlayer() {
@@ -325,15 +347,15 @@ const textNodes = [
 
         },
         {
-            text: "sospechas de este hombre. Esa mirada no es la de un desposeido y con 100 monedas podria comprar un poco mas que solo algo de comida. Prefieres guardarte el dinero para comprar mejor equipo.",
-            nextNode: 13,
+            text: "sospechas de este hombre, no le das nada",
+            nextNode: 14,
             requiredState: (currentState) => currentState.coins
 
 
         },
         {
             text: "no tienes monedas para darle",
-            nextNode: 13,
+            nextNode: 14,
             requiredState: (currentState) => !currentState.coins && !currentState.quest
 
 
@@ -342,19 +364,19 @@ const textNodes = [
         ]
     },
     {
-        id: 14,
-        text: "Le entregas la bolsa al pobre hombre. Lo notas sorprendido, pareciera estar mas contento por el acto mismo que por las monedas en si.te mira fijamente y dice: -'oh muchas gracias noble aenturero. No quiero abusar de tu buena voluntad, pero pareces dispuesto a ayudar a los necesitados. Mi unica posesion era el anillo de mi difunta esposa, pero lo perdi en el bosque y con esta lecion en mi brazo seria comida para los trolls que habitan en el bosque. ¿Serias capaz de irlo a buscar por mi? se que lo perdi en el lado este del bosque.",
+        id: 15,
+        text: "Le entregas la bolsa al pobre hombre. Lo notas sorprendido, pareciera estar más contento por el acto mismo que por las monedas en sí. Te mira fijamente y dice: -'oh muchas gracias noble aventurero. No quiero abusar de tu buena voluntad, pero pareces dispuesto a ayudar a los necesitados. La única posesión que me quedaba era el anillo de mi difunta esposa, pero lo perdí en el bosque y con esta lesión en mi brazo seria comida para los trolls que allí habitan. ¿Serias capaz de ir a buscarlo por mí? sé que lo perdí en el lado este del bosque.'",
 
         options: [
             {
-                text: "Te compadeces del pobre hombre y decides ayudarlo, esos trolls podrian ser un buen calentamiento antes de enferntar al Tirano ¿Que podria salir mal?",
-                nextNode: 13,
+                text: "Te compadeces del pobre hombre y decides ayudarlo",
+                nextNode: 14,
                 setState: { quest: true },
                 requieredState: (currentState) => !currentState.negation
             },
             {
-                text: "Enfrentarse a trolls por un anillo? esta loco, ya bastante que le diste tu bolsa de dinero. Te das media vuelta y sigues con tu viaje.",
-                nextNode: 13,
+                text: "Enfrentarse a trolls por un anillo? esta loco.",
+                nextNode: 14,
                 setState: { negation: true },
 
             },
@@ -365,38 +387,17 @@ const textNodes = [
 
     },
     {
-        id: 15,
-        text: "Te adentras en el bosque. Te diriges directo al este, a donde te guio el vagabundo. El dia es muy hermoso, escuchas lso pajaros cantar. todo esta muy tranquilo. De repente notas un brillo en el rabillo de tu ojo, giras y lo ves, en un matorral, ahi esta el anillo que te pidio el vagabundo!! pero te parece sospechoso",
+        id: 16,
+        text: "Te adentras en el bosque. Te diriges directo al este. El dia es muy hermoso, escuchas los pajaros cantar. todo esta muy tranquilo. De repente notas un brillo en el rabillo de tu ojo, giras y lo ves, en un matorral  ¡ahi esta el anillo que te pidio el vagabundo! pero tanta tranquilidad te parece sospechoso...",
 
         options: [
             {
                 text: "Te dirijes a tomar el anillos",
-                nextNode: 16
+                nextNode: 17
             },
             {
-                text: "Las sospechas te vencen, algo huele mal aqui, decides abandonar esta busqueda, ese vagabundo no es de fiar.",
-                nextNode: 13,
-                setState: { negation: true, quest: false }
-            },
-
-        ]
-    },
-    {
-        id: 16,
-        text: "un rugido terrible se escucha detras del matorrar, y ahi te das cuenta, no era un matorral, era la mismisima guarida de un Troll. El mismo salle de ella, enorme, con garrote en mano, ahora eres su presa",
-
-        options: [
-            {
-                text: "Desenvaina tu espada!! llego la hora del precalentamiento!",
-                nextNode: 18,
-                type: "preBattle",
-                updateEnemy() {
-                    setEnemy("Troll", 100, 8)
-                }
-            },
-            {
-                text: "oh dios! es mucho peor de lo que imaginabas, sales corriendo!!.",
-                nextNode: 17,
+                text: "Las sospechas te vencen, vuelves al pueblo. Ese vagabundo no es de fiar.",
+                nextNode: 14,
                 setState: { negation: true, quest: false }
             },
 
@@ -404,17 +405,38 @@ const textNodes = [
     },
     {
         id: 17,
-        text: "el Troll te percigue, es mucho mas rapido de lo que pensabas, te alcanza y te sujeta con fuerza con su enorme mano. Sientes como todos tus hueso crugen. Pierdes la conciencia meintras te lleva hacia su enorme boca avierta. HAS MUERTO!! FIN DEL JUEGO",
+        text: "un rugido terrible se escucha detras del matorral, y ahi te das cuenta, no era un matorral, era la guarida de un Troll. Enorme, sale a tu encuentro, con garrote en mano, ahora eres su presa",
 
         options: [
             {
-                text: "restart",
+                text: "¡Desenvaina tu espada!",
+                nextNode: 19,
+                type: "preBattle",
+                updateEnemy() {
+                    setEnemy("Troll", 100, 8)
+                }
+            },
+            {
+                text: "¡oh dios! es mucho peor de lo que imaginabas, ¡sales corriendo!.",
+                nextNode: 18,
+                setState: { negation: true, quest: false }
+            },
+
+        ]
+    },
+    {
+        id: 18,
+        text: "el Troll te persigue, es mucho más rápido de lo que pensabas, te alcanza y te sujeta con fuerza con su enorme mano. Sientes como todos tus huesos crujen. Pierdes la conciencia mientras te devora. ¡HAS MUERTO! FIN DEL JUEGO",
+
+        options: [
+            {
+                text: "Volver a Empezar",
                 nextNode: -1
             }
         ]
     },
     {
-        id: 18,
+        id: 19,
         text: "El Troll se yergue imponente frente a ti. Comienza el combate!",
         options: [
             {
@@ -429,31 +451,31 @@ const textNodes = [
             {
                 text: "continuar",
                 type: "postBattle",
-                nextNode: 19,
+                nextNode: 20,
             }
 
         ]
     },
     {
-        id: 19,
-        text: "Por dios! que enemigo! fue un poco mas que un calentamiento, pero pudiste venserlo. Estas cansado, herido, pero orgullo de tu vintoria. Te diriges a harrar el anillo. Se escucha un aullido de un lobo. A tu derecha, de los matorrales sale un lobo gigante. De color plateado, porta un escudo en su lombo y en su mandibula empuña una espada de fabricacion esquicita. se avalanza contra ti. Todavia no te recuperas de la batalla anterior ¿que ahras?",
+        id: 20,
+        text: "¡Por dios! ¡Que enemigo! costó, pero pudiste vencerlo. Estas cansado, herido, pero orgulloso de tu victoria. Te diriges a agarrar el anillo. En ese momento escuchas un aullido. De la vegetación a tu derecha, se abre paso un lobo gigante de color plateado. Porta un escudo dorado en su lomo y con su mandíbula empuña una espada de fabricación élfica. se abalanza contra ti. Todavía no te recuperas de la batalla anterior ¿que haces?",
 
         options: [
             {
                 text: "Con las pocas fuerzas que te quedan levantas tu espada! acabemos con esto!",
-                nextNode: 20
+                nextNode: 21
             },
             {
                 text: "con lo poco que te quedan de fuerzas corres hacia el pueblo. Sobrevives, pero no quieres ni hacercarte otra vez a ese vagabundo.",
-                nextNode: 13,
+                nextNode: 14,
                 setState: { negation: true, quest: false }
 
             }
         ]
     },
     {
-        id: 20,
-        text: "El lobo frena en su carga contra ti. Toda intencion de atacarte se extinguio de sus ojos. Incluso pareciera... complacido. Se va, en direccion al pueblo. lo puerdes de vista. Respiras profundo, El peligro al fin termino!",
+        id: 21,
+        text: "El lobo frena en su carga contra ti. Toda intención de atacarte parece haberse extinguido de sus ojos. Incluso pareciera... complacido. Se va, en dirección al pueblo. lo pierdes de vista. Respiras profundo, ¡El peligro al fin termino!",
 
         options: [
             {
@@ -463,39 +485,39 @@ const textNodes = [
                     setPlayer(200, player.mainHand, player.offHand, 0),
                         showPlayerState()
                 },
-                nextNode: 21
-            }
-        ]
-    },
-    {
-        id: 21,
-        text: "Llegas al pueblo y no puedes creer lo que ves. En la entrada del mismo esta el vagabundo con su mano sada apollada sobre la cabeza del Lobo gigante que te encontraste hace un rato. Sentado y tranquilo, ahora parece un cachorro inofensivo. El vagabundo te habla: -'ja, al fin volviste guerrero, no hace faltas que digas nada, ya mi compañero lobo me conto todo.'",
-
-        options: [
-            {
-                text: "O por dios! solo hay una persona capaz de domar un lobo asi! acaso este vagabundo es...",
                 nextNode: 22
             }
         ]
     },
     {
         id: 22,
-        text: "el vagabundo se rie: -'jaja, veo que ya te diste cuenta quien soy. Si soy Alexander el cazador... o al menos lo que queda de el. Eh estado en este pueblo durante años, esperando mi sucesor para entregarle mi Espada y escudo magicos, pero no pensaba darselo a cualquiera. Tenia que ser alguien digno, alguien noble que s epreocupara por el pueblo.",
+        text: "Llegas al pueblo y no puedes creer lo que ves. En la entrada te encuentras al vagabundo acariciando la cabeza del gran lobo. Sentado y tranquilo, ahora parece un cachorro inofensivo. El vagabundo se dirige a ti: -'ja, al fin volviste guerrero, no hace faltas que digas nada, ya mi compañero lobo me conto todo.'",
 
         options: [
             {
-                text: "ves que toma su espada y escudo y te las entrega",
+                text: "O por dios! solo hay una persona capaz de domar un lobo asi! acaso este vagabundo es...",
                 nextNode: 23
             }
         ]
     },
     {
         id: 23,
-        text: "Pocas personas me han entregado sus monedas de oro y no recuerdo a nadie que halla enfrentado un troll por una baratija, y mucho menos enfentarse a un lobo gigante. Si, eso que te mande a buscar era un simple pedazo de cobre que enocntre por ahi, nunca tuve esposa. Era un token para poner a prueba a los guerreros que llegaran aqui y tu la aspasado ampliamente. Ve guerrero!! cumple con el destino que yo no pude cumplir. Tienes aptitudes y con estas armas, Podras vencer Morkor!",
+        text: "el vagabundo se ríe y con una amplia sonrisa te dice: -'Veo que ya te diste cuenta quien soy. Soy Alexander el cazador... o al menos lo que queda de él. En mi estado actual ya no puedo enfrentar a Morkor, por eso me quede en este pueblo, esperando durante años, a un guerrero digno de mi herencia. Perdón por ponerte a prueba, pero tenía que asegurarme que seas digno'.",
 
         options: [
             {
-                text: "te equipas tus nuevas armas, siente su magia en el mismo momento que las empuñas. Emprendes camino hacia el Castillo de Morkor.",
+                text: "ves que toma la espada y el escudo del lobo y te las entrega",
+                nextNode: 24
+            }
+        ]
+    },
+    {
+        id: 24,
+        text: "Pocas personas me han entregado sus monedas de oro y no recuerdo a nadie que se haya atrevido a enfrentar a ese troll por una baratija. Mucho menos a un lobo gigante. Toma, esta es Baradun la legendaria espada élfica y este es el escudo de Roble Dorado de las Náyades. As probado tu valía y tu habilidad. ¡Con estas armas Morkor no tiene oportunidad contra ti! eh? el anillo? descartalo, era solo una pieza de cobre que encontre por ahi, jamas tuve esposa jajaja",
+
+        options: [
+            {
+                text: "te equipas tus nuevas armas agradecido. Te diriges al pueblo a descansar un poco",
                 type: "setPlayer",
                 updatePlayer() {
                     setPlayer(200, espadaLegendaria, escudoLegendario, 0),
@@ -503,7 +525,7 @@ const textNodes = [
                 },
                 setState: { legendary: true, quest: false },
 
-                nextNode: 90,
+                nextNode: 14,
 
 
 
@@ -512,11 +534,11 @@ const textNodes = [
     },
     {
         id: 90,
-        text: "Llegas a las puertas del castillo, entras. No hay guardias ni sirvientes, una carcaza oscura y vacia, lo unico que queda aqui es Morkor, que gobierna con tanta seguridad el solo se encarga de eliminar a quienes lo desafian. llegas a sus aposentos y alli esta, en su trono vestido con su armadura negra, su espada imponente y su escudo inquebrantable.",
+        text: "Llegas a las puertas del castillo. No hay guardias. Una carcasa oscura y vacía, eso te parece este lugar. Entras en ella. Recorres pasillos interminables hasta llegar al gran salón. En su trono vestido con su armadura negra, su espada imponente y su escudo inquebrantable se encuentra Morkor, listo para acabar con tu ambición.",
 
         options: [
             {
-                text: "desevainas tus armas legendarias, te prepara para la batalla final",
+                text: "desevainas tus armas legendarias, te preparas para la batalla final",
                 requiredState: (currentState) => currentState.legendary,
                 nextNode: 91
             },
@@ -524,12 +546,12 @@ const textNodes = [
                 text: "desevainas tus armas, te prepara para la batalla final",
                 requiredState: (currentState) => !currentState.legendary,
                 nextNode: 92
-            }
+            },
         ]
     },
     {
         id: 91,
-        text: "Morkor reconoce tus armas: -'ohhhh, al fin encontro un heredero, bien.... al fin un enemigo digno.",
+        text: "Morkor reconoce tus armas: -'ohhhh, parece que Alexander encontró alguien digno de sus armas, bien.... por fin un contendiente que valga la pena.",
 
         options: [
             {
@@ -544,14 +566,14 @@ const textNodes = [
     },
     {
         id: 92,
-        text: "Morkor se levanta de su trono y alza sus armas: -'Otro insecto molesto, bien... terminemos esto rapido!'",
+        text: "Morkor se levanta de su trono y alza sus armas: -'Otro insecto ambicioso, bien... terminemos esto rapido!'",
 
         options: [
             {
                 text: "Comenzar la batalla final",
                 type: "preBattle",
                 updateEnemy() {
-                    setEnemy("Caballero Oscuro, Morkor", 200, 50)
+                    setEnemy("Caballero Oscuro, Morkor", 200, 30)
                 },
                 nextNode: 93
             }
@@ -559,7 +581,7 @@ const textNodes = [
     },
     {
         id:93,
-        text: "En guardia Morkor!",
+        text: "¡En guardia Morkor!",
 
         options: [
             {
@@ -598,7 +620,7 @@ const textNodes = [
     },
     {
         id: 95,
-        text: "final bueno todos contentos, el alexander te felicita bla bla bla. FELICIDADES, GANASTE EL JUEGO. ESTE ES EL FINAL BUENO. VUELVE A PROBAR PERO ESTA VEZ SIN LA AYUDA DE ALEXANDER.",
+        text: "Llegas al pueblo victorioso. Alexander te recibe en la entrada con una amplia sonrisa. El pueblo, aún enajenado, no puede creer lo que ven sus ojos. Al fin el tirano cayó. Alexander te nombra en frente de todos como el nuevo Rey de Skagard. ¡El labor será ardua pero juntos con el apoyo del pueblo y las criaturas bondadosas del bosque podrán llevar al Reino a su antiguo esplendor!. FELICIDADES, GANASTE EL JUEGO. ESTE ES EL FINAL BUENO. VUELVE A PROBAR PERO ESTA VEZ SIN LA AYUDA DE ALEXANDER.",
 
         options: [
             {
@@ -609,7 +631,7 @@ const textNodes = [
     },
     {
         id: 96,
-        text: "Lograste vencer a Morkor, sin la ayuda de nadie, ahora van a ver, ahora voy a gobernar tiranicamente yo. FELICIDADES, GANASTE EL JUEGO. ESTE ES EL FINAL MALO. PRUEBA HABLAR CON EL VAGABUNDO LA PROXIMA.",
+        text: "Llegas al pueblo victorioso. Lograste vencer a Morkor, sin la ayuda de nadie ¡El trono es tuyo! El pueblo te vitorea, pero no ves más que un montón campesinos débiles e inútiles ¿de que servirían? No, la fortaleza de este reino esta en las viles criaturas del bosque. Ahora que Morkor ya no está, tu las dirigirás y dominaras estas tierras junto a ellas… ¿y por qué no más allá? Al otro lado ves al vagabundo, te sorprende que un lobo gigante y plateado surge de la nada y se acerca a él. Los dos se retiran del en dirección al bosque. No sabes por qué… pero presientes que este hombre representa un peligro para tu nuevo gobierno.. FELICIDADES, GANASTE EL JUEGO. ESTE ES EL FINAL MALO. PRUEBA HABLAR CON EL VAGABUNDO LA PROXIMA.",
 
         options: [
             {
