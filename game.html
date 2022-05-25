@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG V01</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/dc36d055f6.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="game">
+    <div class="container">
+        <div id="text" class="text">Text</div>
+        <div id="option-buttons" class="btn-grid">
+            <button class="btn">Buton 1</button>
+            <button class="btn">Buton 2</button>
+            <button class="btn">Buton 3</button>
+            <button class="btn">Buton 4</button>
+            <button class="btn" id="attack" onClick="fight(id)">Atacar!</button>
+            <button class="btn" id="counter" onClick="fight(id)">Defenderse y contra atacar!</button>
+        </div>
+    </div>
+
+    <div id="playerBox" class="playerBox">
+        <p id="playerHp"><i><i class="fa-solid fa-heart"></i></i>HP: ...</p>
+        <p id="mainHand">Main Hand: ...</p>
+        <p id="offHand">Off Hand: ...</p>
+        <p id="item">Item: ...</p>
+    </div>
+
+    <script src="js/player.js"></script>
+    <script src="js/enemy.js"></script>
+    <script src="js/battle.js"></script>
+    <script src="js/maingame.js"></script>
+
+
+</body>
+
+</html>
