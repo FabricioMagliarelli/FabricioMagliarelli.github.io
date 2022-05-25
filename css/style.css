@@ -127,7 +127,7 @@ body {
 }
 
 
-#sources{
+#sources {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -140,15 +140,18 @@ body {
 
 
 /*formulario*/
-#formContacto {
-    background-image: url(images/dungeon.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 30rem;
-    width: 100%;
+@media only screen and (min-width: 800px) {
+    #formContacto {
+        background-image: url(images/dungeon.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 30rem;
+        width: 100%;
 
+    }
 }
+
 
 #support-form {
     width: 100%;
@@ -268,25 +271,47 @@ body {
     }
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 800px;
-    max-width: 80%;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px 2px;
-    background-image: url(images/paper2.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Macondo', cursive;
-    opacity: 1;
-    animation-name: startGame;
-    animation-duration: 3s;
+@media only screen and (min-width: 400px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 800px;
+        max-width: 80%;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px 2px;
+        background-image: url(images/paper2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Macondo', cursive;
+        opacity: 1;
+        animation-name: startGame;
+        animation-duration: 3s;
+    }
 }
+
+@media only screen and (max-width: 400px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 800px;
+        max-width: 80%;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px 2px;
+        background-color: white;
+        font-family: 'Courier New', Courier, monospace;
+        opacity: 1;
+        animation-name: startGame;
+        animation-duration: 3s;
+    }
+}
+
 
 
 
@@ -305,31 +330,58 @@ body {
     color: white
 }
 
-.btn {
-    background-image: url(images/paper.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 1px black solid;
-    overflow-wrap: normal;
-    padding: 5px 10px;
+@media only screen and (min-width: 400px) {
+    .btn {
+        background-image: url(images/paper.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 1px black solid;
+        overflow-wrap: normal;
+        padding: 5px 10px;
+    }
 }
 
+@media only screen and (max-width: 400px) {
+    .btn {
+        background-color: wheat;
+        border: 1px black solid;
+        overflow-wrap: normal;
+        padding: 5px 10px;
+    }
+}
 
+@media only screen and (min-width: 400px) {
+    .playerBox {
+        width: 200px;
+        max-width: 80%;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px 2px;
+        align-items: auto;
+        font-family: 'Macondo', cursive;
+        background-image: url(images/paper.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 1;
+        animation-name: startGame;
+        animation-duration: 3s;
+    }
+}
 
-.playerBox {
-    width: 200px;
-    max-width: 80%;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px 2px;
-    align-items: auto;
-    font-family: 'Macondo', cursive;
-    background-image: url(images/paper.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 1;
-    animation-name: startGame;
-    animation-duration: 3s;
+@media only screen and (max-width: 400px) {
+    .playerBox {
+        width: 200px;
+        max-width: 80%;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px 2px;
+        align-items: auto;
+        font-family: 'Macondo', cursive;
+        background-color: wheat;
+        opacity: 1;
+        animation-name: startGame;
+        animation-duration: 3s;
+    }
 }
