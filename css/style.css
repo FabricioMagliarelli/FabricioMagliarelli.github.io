@@ -271,7 +271,7 @@ body {
     }
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 800px) {
     .container {
         display: flex;
         justify-content: center;
@@ -293,7 +293,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 800px) {
     .container {
         display: flex;
         justify-content: center;
@@ -330,7 +330,7 @@ body {
     color: white
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 800px) {
     .btn {
         background-image: url(images/paper.jpg);
         background-position: center;
@@ -342,7 +342,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 800px) {
     .btn {
         background-color: wheat;
         border: 1px black solid;
@@ -351,7 +351,7 @@ body {
     }
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 800px) {
     .playerBox {
         width: 200px;
         max-width: 80%;
@@ -370,7 +370,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 800px) {
     .playerBox {
         width: 200px;
         max-width: 80%;
@@ -378,7 +378,7 @@ body {
         border-radius: 5px;
         box-shadow: 0 0 10px 2px;
         align-items: auto;
-        font-family: 'Macondo', cursive;
+        font-family: 'Courier New', Courier, monospace;
         background-color: wheat;
         opacity: 1;
         animation-name: startGame;
