@@ -15,11 +15,11 @@
 
 <body>
     <nav class="nav" id="nav">
-        <a href="index.html">inicio</a>
-        <a href="#">¿que es?</a>
+        <a href="#indexContainer">inicio</a>
+        <a href="#guide">¿que es?</a>
         <a href="soporte.html">soporte</a>
     </nav>
-    <section class=indexContainer>
+    <div class=indexContainer>
         <div class="image"></div>
         <div class="indexHeader">
             <header>
@@ -27,27 +27,40 @@
                 <h2>un juego de rol de texto con combates y progresión</h2>
             </header>
         </div>
+
         <div class="boton"><button id="startGameButton"><a href="game.html">JUGAR</a></button></div>
 
-        <section>
-            <div class="newsConteiner">
-                <div class="news">
-                    <iframe width="363" height="204" src="https://www.youtube.com/embed/R1S_NhKkvGA"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </div>
-                <div class="news">
-                    <iframe width="363" height="204" src="https://www.youtube.com/embed/M6sA8fvMCuA"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </div>
-                <div class="news">Noticia 3
+        <section id="guide">
+            <div class="article">
+                <p>La Saga de Skagard es un juego de Rol de texto, en donde personificaras a un aventurero que deberá
+                    liberar el reino de Sakard del tiránico Morkor.</p>
+                <p>En este juego, se te presentaran varios dilemas donde tendrás que decidir qué hacer. El progreso de
+                    tu personaje dependerá de tus decisiones: ¿Gastaras el dinero que consigues en tus aventuras en una
+                    espada nueva? ¿O lo usaras para ayudar a alguien necesitado? Tú eliges.</p>
 
-                    <div>
-                    </div>
+                <img src="css/images/dilema.jpg" alt="dilema">
+
+                <p>Pero tu aventura no estará exenta de peligros, algunas decisiones te pueden llevar hasta las guaridas
+                    de enemigos feroces que te presentaran batalla.</p>
+
+                <img src="css/images/battlebox.jpg" alt="batalla">
+
+                <p>Cuando se desencadene una batalla, podrás elegir entre atacar, o defenderte y contratacar con un
+                    golpe crítico. ¡Pero cuidado! Tu enemigo puede realizar estas mismas acciones también. El daño que
+                    realices, la probabilidad de asestar el golpe cuando tu enemigo decide defenderse o bien la
+                    probabilidad que tienes de defenderte del ataque enemigo dependen de la calidad del equipo que
+                    lleves puesto. </p>
+
+                <img src="css/images/charbox.png" alt="dilema">
+
+                <p>Tu equipo actual, así como también tus puntos de vida y las monedas que llevas contigo se
+                    visualizaran en la caja de personaje, debajo de los dilemas. ¡Préstale atención todo el tiempo!</p>
+                <p>¡La aventura te espera! ¿estarás a la altura?</p>
+            </div>
         </section>
+
+
+    </div>
 </body>
 
 </html>

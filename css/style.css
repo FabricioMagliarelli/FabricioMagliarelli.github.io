@@ -18,14 +18,15 @@ body {
 
 /*index Grid*/
 .indexContainer {
-    display: grid;
-    grid-template-areas: "image""header""button""news";
-    grid-template-rows: 400px 1fr 1fr 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
 }
 
 /*nav responsive*/
 .nav {
-    grid-area: nav;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -112,21 +113,23 @@ body {
 
 
 
-.newsConteiner {
-    grid-area: news;
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+#guide {
+    color:white;
     margin-top: 5rem;
+    align-self: center;
+    max-width: 80%;
+    border: goldenrod 1px solid;
 }
 
-.news {
-    border: goldenrod 1px solid;
-    height: auto;
-    width: auto;
+.article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1rem;
+    padding: 5px;
 }
+    
+
 
 
 /*formulario*/

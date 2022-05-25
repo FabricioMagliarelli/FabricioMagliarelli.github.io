@@ -163,7 +163,7 @@ const textNodes = [
         text: "Recorres el bosque. Te abres paso entre los árboles y los matorrales. No es la primeras que lo haces y logras Ubicarte. Sabes que mas al norte esta el Pueblo llamado “Pueblo Negro”, ultimo asentamiento antes del Castillo de Morkor. Te diriges en esa dirección. De repente escuchas las hojas moverse, y de la vegetación en frente, salta un Goblin con daga en mano. Una vil criatura que se aprovecha de los viajeros desprevenidos, asesinándolos y robándoles sus pertenencias. ",
         options: [
             {
-                text: "desenvainas tu espada y levantas tu escudo, vas a enfrentarte al gran Morkor, no puedes temerle a un simple goblin, te dispones a luchar contra el.",
+                text: "desenvainas tu espada y levantas tu escudo!",
                 nextNode: 7,
                 type: "preBattle",
                 updateEnemy() {
