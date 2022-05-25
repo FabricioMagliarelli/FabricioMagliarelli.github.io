@@ -10,21 +10,6 @@ body {
     background-color: black;
 }
 
-/*background*/
-.indexContainer {
-    background-color: black;
-
-}
-
-/*index Grid*/
-.indexContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    
-}
-
 /*nav responsive*/
 .nav {
     display: flex;
@@ -45,6 +30,20 @@ body {
 .nav a:hover {
     background-color: goldenrod;
     color: black;
+}
+
+/*background*/
+.indexContainer {
+    background-color: black;
+
+}
+
+/*index*/
+.indexContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
 .image {
@@ -110,11 +109,8 @@ body {
     padding: 20px;
 }
 
-
-
-
 #guide {
-    color:white;
+    color: white;
     margin-top: 5rem;
     align-self: center;
     max-width: 80%;
@@ -129,12 +125,21 @@ body {
     padding: 5px;
     color: white;
 }
-    
+
+
+#sources {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+    color: white;
+}
+
 
 
 
 /*formulario*/
-#formContacto{
+#formContacto {
     background-image: url(images/dungeon.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -144,7 +149,7 @@ body {
 
 }
 
-#support-form{
+#support-form {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -156,23 +161,23 @@ body {
 
 }
 
-#support-form h1{
+#support-form h1 {
     font-size: 1.5em;
     margin-bottom: 40px;
 }
 
-.form-field{
+.form-field {
     margin-bottom: 10px;
     width: 100%;
 }
 
-.form-field label{
+.form-field label {
     display: block;
     margin-bottom: 10px;
 
 }
 
-.form-field input{
+.form-field input {
     border: solid 2px white;
     border-radius: 3px;
     padding: 10px;
@@ -182,21 +187,21 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.form-field textarea{
+.form-field textarea {
     border: solid 2px white;
     border-radius: 3px;
     padding: 10px;
     margin-bottom: 10px;
     display: block;
     font-size: 1em;
-    font-family:'Times New Roman', Times, serif ;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.form-field input:focus{
+.form-field input:focus {
     outline: none;
 }
 
-.form-field textarea:focus{
+.form-field textarea:focus {
     outline: none;
 }
 
@@ -220,7 +225,7 @@ body {
     color: rgb(255, 143, 143);
 }
 
-#form-btn{
+#form-btn {
     background-color: black;
     border: goldenrod 1px solid;
     color: white;
@@ -229,7 +234,7 @@ body {
     width: 8rem;
 }
 
-#form-btn:hover{
+#form-btn:hover {
     background-color: rgba(158, 13, 13, 0.445);
 }
 
@@ -253,8 +258,13 @@ body {
 }
 
 @keyframes startGame {
-    from {opacity: 0;}
-    to {opacity: 100%}    
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 100%
+    }
 }
 
 .container {
@@ -285,10 +295,10 @@ body {
     grid-template-columns: repeat(2, auto);
     gap: 10px;
     margin-top: 20px;
-    
+
 }
 
-.btn:hover{
+.btn:hover {
     background-image: none;
     background-color: steelblue;
     color: white
@@ -322,4 +332,3 @@ body {
     animation-name: startGame;
     animation-duration: 3s;
 }
-
