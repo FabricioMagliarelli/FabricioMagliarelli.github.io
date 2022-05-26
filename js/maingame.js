@@ -90,7 +90,7 @@ function selectOption(option) {
 const textNodes = [
     {
         id: 1,
-        text: "El Legendario Reino de Skagard no era como cualquier reino, ya que sus tierras estaban totalmente rodeadas por el bosque encantado Skag, que lo mantenía prácticamente aislado de los demás territorios. La Familia Real de Skagard mantenía buena relación con las Náyades y los Elfos que habitaban el bosque y juntos a raya a los Goblins, Trolls y las otras viles criaturas de Skag… hasta que Morkor se hizo con el poder.",
+        text: "El Legendario Reino de Skagard no era como cualquier reino. Sus tierras estaban totalmente rodeadas por el bosque encantado Skag que lo mantenía prácticamente aislado de los demás territorios. La Familia Real de Skagard mantenía buena relación con las náyades y los elfos que habitaban el bosque y juntos mantenían a raya a los goblins, trolls y demas viles criaturas de Skag… hasta que Morkor se hizo con el poder.",
         options: [
             {
                 text: "continuar",
@@ -120,7 +120,7 @@ const textNodes = [
     },
     {
         id: 3,
-        text: "No todos los caballeros oscuros estuvieron de acuerdo con la rebelión, y algunos se le opusieron. En particular el Gran Cazador Alexander, reconocido por sus habilidades con el arco, la espada y además contaba con la ayuda del gran lobo 'Lomo de Plata', que crío desde cachorro. Alexander dirigió una revuelta contra el Tirano y fue ayudado por las Náyades y Elfos del bosque. Estos le forjaron dos artefactos legendarios: El escudo de Roble Dorado y La espada élfica Baradun.",
+        text: "No todos los caballeros oscuros estuvieron de acuerdo con la rebelión, y algunos se le opusieron. En particular el Gran Cazador Alexander, reconocido por sus habilidades con el arco y la espada. Además contaba con la ayuda del gran lobo 'Lomo de Plata', que crío desde cachorro. Alexander dirigió una revuelta contra el Tirano y fue ayudado por las náyades y nlfos del bosque. Estos le forjaron dos artefactos legendarios: El escudo de Roble Dorado y La espada élfica Baradun.",
         options: [
             {
                 text: "continuar",
@@ -164,7 +164,7 @@ const textNodes = [
     },
     {
         id: 6,
-        text: "Sin embargo, muchos de los sobrevivientes de la gran batalla lograron escapar a tierras lejanas y allí esparcieron las leyendas sobre este escondido reino rodeado por el bosque Skag: '¡Aquel que lograra derortar a Morkor, podría reclamar el Trono'! Tu eres uno de tantos valientes que se aventuraron en el lejano reino, en busca de gloria… y de una corona por supuesto. El gran bosque encantado Skag se yergue frente a ti, ¿Qué harás ahora?",
+        text: "Sin embargo, muchos de los sobrevivientes de la gran batalla lograron escapar a tierras lejanas y allí esparcieron las leyendas sobre este escondido reino rodeado por el bosque Skag: '¡Aquel que lograra derortar a Morkor, podría reclamar el Trono!' Tu eres uno de tantos valientes que se aventuraron en el lejano reino, en busca de gloria… y de una corona por supuesto. El gran bosque encantado Skag se yergue frente a ti, ¿Qué harás ahora?",
         options: [
             {
                 text: "¡Entrar al Bosque!",

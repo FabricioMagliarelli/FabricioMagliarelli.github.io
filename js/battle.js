@@ -1,7 +1,6 @@
-
 //batalla
+//seteamos las variables y llamamos a los elementos de la pagina.
 var savedEnemyMove;
-
 var battleLog;
 var showBattleLog = document.querySelector("#text");
 var attackButton = document.querySelector("#attack");
@@ -14,7 +13,7 @@ function enableButtons() {
 }
 
 
-//let calc = Math.floor((Math.random()*6)+1)
+//funcion que desencadena la accion de combate, depende del boton que se apriete
 
 function fight(id) {
     enemyMove(id)
@@ -30,6 +29,7 @@ function roundResults(battleLog) {
     ],500)
 }
 
+//estado al finalizar la batalla
 function battleOver() {
     if (player.hp <= 0) {
         battleLog = "has muerto. Fin del Juego"
@@ -61,7 +61,7 @@ function battleOver() {
         })
     }
 }
-    //enemyMove
+    //Movimiento del enemigo, tiene 50% de probabilidad (aprox) de atacar o defenderse 
     function enemyMove(id) {
         var move = Math.floor((Math.random() * 100) + 1);
         if (move <= 50) {
@@ -73,6 +73,7 @@ function battleOver() {
         roundResults(battleLog)
     }
 
+    //Desenlase de la batalla, dependiendo que seleccion cada combatiente. La probabilidad de asestar si el enemigo se defiende o defenderse si se decide defender, depende del arma que se tena equipada.
     function damageStep(p, e) {
         if (p == "attack" && e == "attack") {
             battleLog = "Realizas un ataque feroz a tu enemigo, infligiéndole "+player.mainHand.damage+" de Daño! El enemigo te devuelve el ataque infligiendote "+ enemy.damage+" de daño! la lucha se agudiza!";

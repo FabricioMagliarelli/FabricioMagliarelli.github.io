@@ -1,3 +1,4 @@
+//constructor del enemigo
 var enemy
 
 function Enemy(name,hp, damage) {

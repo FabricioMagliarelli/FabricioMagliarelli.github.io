@@ -8,7 +8,7 @@ function Player(hp, mainHand, offHand, coins) {
     this.coins = coins
 }
 
-//Equipos de equipos
+//Equipos del jugador
 let espadaOxidada = {
     name: "Espada Oxidada",
     attack: 2,
@@ -23,7 +23,7 @@ let espadaDeHierro ={
 }
 
 let espadaLegendaria ={
-    name: "Espada Legendaria",
+    name: "Espada Elfica Baradun",
     attack: 5,
     damage: 30
 }
@@ -39,6 +39,6 @@ let escudoMetal = {
 }
 
 let escudoLegendario ={
-    name: "Escudo Legendario",
+    name: "Escudo de Roble Dorado",
     defense: 5
 }

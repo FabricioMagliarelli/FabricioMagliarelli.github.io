@@ -25,7 +25,7 @@ const checkUsername = () => {
 };
 
 
-
+//validacion mail
 const checkEmail = () => {
     let valid = false;
     const email = emailElement.value.trim();
@@ -45,6 +45,7 @@ const isEmailValid = (email) => {
     return re.test(email);
 };
 
+//validacion comentario
 const checkComent = () => {
 
     let valid = false;
