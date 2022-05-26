@@ -105,7 +105,7 @@ const textNodes = [
     },
     {
         id: 2,
-        text: "Morkor era el hermano menor del bondadoso Rey Athelstan y, como Principe ostentaba el liderazgo de La Orden de los Caballeros Oscuros, que era la unidad militar de elite del reino, cuya misión era hacer incursiones en los bosques y defender el territorio. Algunos creen que fue por simple avaricia, otros que un brujo del bosque envenenó sus oídos, pero un día Morkor dirigió su Orden contra el castillo, derroto a la Guardia Real y mato a su hermano, a la reina y  todos sus herederos, haciéndose con el Trono.",
+        text: "Morkor era el hermano menor del bondadoso Rey Athelstan y, como Principe, ostentaba el liderazgo de La Orden de los Caballeros Oscuros que era la unidad militar de elite del reino, cuya misión era hacer incursiones en los bosques y defender el territorio. Algunos creen que fue por simple avaricia, otros que un brujo del bosque envenenó sus oídos, pero un día Morkor dirigió su Orden contra el castillo, derroto a la Guardia Real y mato a su hermano, a la reina y todos sus herederos, haciéndose con el Trono.",
         options: [
             {
                 text: "continuar",
@@ -120,7 +120,7 @@ const textNodes = [
     },
     {
         id: 3,
-        text: "No todos los caballeros oscuros estuvieron de acuerdo con la rebelión, y algunos se le opusieron. En particular el Gran Cazador Alexander, reconocido por sus habilidades con el arco, la espada, además contaba cpn la ayuda del gran lobo 'Lomo de Plata' que crío desde cachorro. Alexander dirigió una revuelta contra el Tirano y fue ayudado por las Náyades y Elfos del bosque. Estos le forjaron dos artefactos legendarios: El escudo de Roble Dorado y La espada élfica Baradun.",
+        text: "No todos los caballeros oscuros estuvieron de acuerdo con la rebelión, y algunos se le opusieron. En particular el Gran Cazador Alexander, reconocido por sus habilidades con el arco, la espada y además contaba con la ayuda del gran lobo 'Lomo de Plata', que crío desde cachorro. Alexander dirigió una revuelta contra el Tirano y fue ayudado por las Náyades y Elfos del bosque. Estos le forjaron dos artefactos legendarios: El escudo de Roble Dorado y La espada élfica Baradun.",
         options: [
             {
                 text: "continuar",
@@ -135,7 +135,7 @@ const textNodes = [
     },
     {
         id: 4,
-        text: "Los rebeldes iniciaron un asalto contra el Castillo de Morkor, pero él estaba preparado. Mientras su Orden de Caballeros Oscuros defendían las puertas del castillo, un ejercito de goblins y trolls, aliados del tirano, atacaron a los asediantes desde la retaguardia. ¡Así y todo, los rebeldes presentaron una feroz batalla! Los caballeros de Alexander lograron derrotar a la Orden y llegaron a los aposentos de Morkor, donde se dio el combate mano a mano contra Morkor.",
+        text: "Los rebeldes iniciaron un asalto contra el Castillo de Morkor, pero él estaba preparado. Mientras su Orden de Caballeros Oscuros defendían las puertas del castillo, un ejercito de goblins y trolls, aliados del tirano, atacaron a los asediantes desde la retaguardia. ¡Así y todo, los rebeldes presentaron una feroz batalla! Los caballeros de Alexander lograron derrotar a la Orden y llegaron a la sala del trono, donde se dio el combate mano a mano contra Morkor.",
         options: [
             {
                 text: "continuar",
@@ -226,7 +226,7 @@ const textNodes = [
     },
     {
         id: 10,
-        text: "Recuperas aire, el combate fue canzador, pero te recompones en la victoria. revisas el cuerpo del goblin y encuentras una bolas con 100 monedas.",
+        text: "Recuperas aire, el combate fue canzador, pero te recompones en la victoria. revisas el cuerpo del goblin y encuentras una bolsa con 100 monedas.",
         options: [
             {
                 text: "Tomar las monedas y seguir con tu camino",
@@ -242,7 +242,7 @@ const textNodes = [
     },
     {
         id: 11,
-        text: "Llegas al Pueblo Negro. El lugar es decadente. Todos los campesinos llevan caras largas. Te diriges a la plaza central. Desde allí puedes ver un herrero, parece habil podrias intercambiar las monedas por mejor equipo. En frente de él ves a un pobre vagabundo, vestido con arapos. Y mas alla la salida del pueblo, camino que te lleva directo hasta el castillo de Morkor.",
+        text: "Llegas al Pueblo Negro. El lugar es decadente. Todos los campesinos llevan caras largas. Te diriges a la plaza central. Desde allí puedes ver un herrero, parece habil, podrias intercambiar las monedas por mejor equipo. En frente de él ves a un pobre vagabundo, vestido con arapos. Y mas alla la salida del pueblo, camino que te lleva directo hasta el castillo de Morkor.",
         options: [
             {
                 text: "Hablar con el herrero a ver que puede ofrecerte",
@@ -267,7 +267,7 @@ const textNodes = [
     },
     {
         id: 12,
-        text: "El herrero te recibe con una amblia sorrisa:'Bienvenido Guerrero. Veo que te dirijes al castillo de Morkor, muchos valiente como tu pasan por aqui... pocos vuelven, y ninguno entero jajaja. No te preocupes, tengo lo que necesitas. Puedo ofrecerte esta espada y este escudo, no son las armas legendarias de Alexander pero son de fino hierro. Puedo ofresertelos por solo 100 monedas, que dices'?",
+        text: "El herrero te recibe con una amplia sorrisa:'Bienvenido Guerrero. Veo que te dirijes al castillo de Morkor, muchos valientes como tu pasan por aqui... pocos vuelven, y ninguno entero jajaja. No te preocupes, tengo lo que necesitas. Puedo ofrecerte esta espada y este escudo, no son las armas legendarias de Alexander pero son de fino hierro. Puedo ofresertelas por solo 100 monedas, que dices'?",
         options: [
             {
                 text: "Aceptas el trato",
@@ -388,7 +388,7 @@ const textNodes = [
     },
     {
         id: 16,
-        text: "Te adentras en el bosque. Te diriges directo al este. El dia es muy hermoso, escuchas los pajaros cantar. todo esta muy tranquilo. De repente notas un brillo en el rabillo de tu ojo, giras y lo ves, en un matorral  ¡ahi esta el anillo que te pidio el vagabundo! pero tanta tranquilidad te parece sospechoso...",
+        text: "Te adentras en el bosque. Te diriges directo al este. El día es muy hermoso, escuchas los pajaros cantar. todo esta muy tranquilo. De repente notas un brillo en el rabillo de tu ojo, giras y lo ves, en un matorral ¡ahi esta el anillo que te pidio el vagabundo! pero tanta tranquilidad te parece sospechoso...",
 
         options: [
             {
@@ -491,7 +491,7 @@ const textNodes = [
     },
     {
         id: 22,
-        text: "Llegas al pueblo y no puedes creer lo que ves. En la entrada te encuentras al vagabundo acariciando la cabeza del gran lobo. Sentado y tranquilo, ahora parece un cachorro inofensivo. El vagabundo se dirige a ti: -'ja, al fin volviste guerrero, no hace faltas que digas nada, ya mi compañero lobo me conto todo.'",
+        text: "Llegas al pueblo y no puedes creer lo que ves. En la entrada te encuentras al vagabundo acariciando la cabeza del gran lobo. Sentado y tranquilo, ahora parece un cachorro inofensivo. El vagabundo se dirige a ti: -'ja, al fin volviste guerrero, no hace falta que digas nada, ya mi compañero lobo me conto todo.'",
 
         options: [
             {
@@ -502,7 +502,7 @@ const textNodes = [
     },
     {
         id: 23,
-        text: "El vagabundo se ríe y con una amplia sonrisa te dice: -'Veo que ya te diste cuenta quien soy. Soy Alexander el cazador... o al menos lo que queda de él. En mi estado actual ya no puedo enfrentar a Morkor, por eso me quede en este pueblo, esperando durante años, a un guerrero digno de mi herencia. Perdón por ponerte a prueba, pero tenía que asegurarme que seas digno'.",
+        text: "El vagabundo se ríe y con una amplia sonrisa te dice: -'Veo que ya te diste cuenta quien soy. Soy Alexander el cazador... o al menos lo que queda de él. En mi estado actual ya no puedo enfrentar a Morkor, por eso me quede en este pueblo, esperando durante años a un guerrero digno de mi herencia. Perdón por ponerte a prueba, pero tenía que asegurarme de que seas digno'.",
 
         options: [
             {
