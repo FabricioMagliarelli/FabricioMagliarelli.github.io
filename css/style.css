@@ -48,31 +48,28 @@ body {
 
 @media only screen and (max-width: 800px) {
     .image {
-        grid-area: image;
-        background-image: url(images/dragon.jpg);
+        background-image: url(images/dragonsmall.jpg);
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size:cover;
         height: 30rem;
-        width: 50%;
+        width: 100%;
     }
     }
 
 @media only screen and (min-width: 800px) {
 .image {
-    grid-area: image;
-    background-image: url(images/dragon.jpg);
+    background-image: url(images/dragonmedium.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     height: 30rem;
-    width: 70%;
+    width: 100%;
 }
 }
 
 @media only screen and (min-width: 1000px) {
     .image {
-        grid-area: image;
         background-image: url(images/dragon.jpg);
         background-position: center;
         background-repeat: no-repeat;
