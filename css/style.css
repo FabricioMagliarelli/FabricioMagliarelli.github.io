@@ -46,6 +46,19 @@ body {
     align-content: center;
 }
 
+@media only screen and (max-width: 800px) {
+    .image {
+        grid-area: image;
+        background-image: url(images/dragon.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 30rem;
+        width: 50%;
+    }
+    }
+
+@media only screen and (min-width: 800px) {
 .image {
     grid-area: image;
     background-image: url(images/dragon.jpg);
@@ -53,8 +66,21 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 30rem;
-    width: 100%;
+    width: 70%;
 }
+}
+
+@media only screen and (min-width: 1000px) {
+    .image {
+        grid-area: image;
+        background-image: url(images/dragon.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 30rem;
+        width: 100%;
+    }
+    }
 
 .indexHeader {
     grid-area: header;
