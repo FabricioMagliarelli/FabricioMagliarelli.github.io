@@ -37,7 +37,7 @@ function battleOver() {
         attackButton.disabled = true;
         counterButton.disabled = true;
         const button =document.createElement('button')
-        button.innerText = "restart"
+        button.innerText = "Volver a Empezar"
         button.classList.add("btn")
         button.addEventListener("click", () => startGame())
         button.addEventListener("click", () => enableButtons())

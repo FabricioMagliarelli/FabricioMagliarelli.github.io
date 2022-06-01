@@ -120,7 +120,7 @@ const textNodes = [
     },
     {
         id: 3,
-        text: "No todos los caballeros oscuros estuvieron de acuerdo con la rebelión, y algunos se le opusieron. En particular el Gran Cazador Alexander, reconocido por sus habilidades con el arco y la espada. Además contaba con la ayuda del gran lobo 'Lomo de Plata', que crío desde cachorro. Alexander dirigió una revuelta contra el Tirano y fue ayudado por las náyades y nlfos del bosque. Estos le forjaron dos artefactos legendarios: El escudo de Roble Dorado y La espada élfica Baradun.",
+        text: "No todos los caballeros oscuros estuvieron de acuerdo con la rebelión, y algunos se le opusieron. En particular el Gran Cazador Alexander, reconocido por sus habilidades con el arco y la espada. Además contaba con la ayuda del gran lobo 'Lomo de Plata', que crío desde cachorro. Alexander dirigió una revuelta contra el Tirano y fue ayudado por las náyades y elfos del bosque. Estos le forjaron dos artefactos legendarios: El escudo de Roble Dorado y La espada élfica Baradun.",
         options: [
             {
                 text: "continuar",
