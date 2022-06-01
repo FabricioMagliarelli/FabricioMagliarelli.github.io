@@ -620,7 +620,7 @@ const textNodes = [
     },
     {
         id: 95,
-        text: "Llegas al pueblo victorioso. Alexander te recibe en la entrada con una amplia sonrisa. El pueblo, aún enajenado, no puede creer lo que ven sus ojos. Al fin el tirano cayó. Alexander te nombra en frente de todos como el nuevo Rey de Skagard. ¡El labor será arduo pero juntos con el apoyo del pueblo y las criaturas bondadosas del bosque podrán llevar al Reino a su antiguo esplendor!. FELICIDADES, GANASTE EL JUEGO. ESTE ES EL FINAL BUENO. VUELVE A PROBAR PERO ESTA VEZ SIN LA AYUDA DE ALEXANDER.",
+        text: "Llegas al pueblo victorioso. Alexander te recibe en la entrada con una amplia sonrisa. El pueblo, aún enajenado, no puede creer lo que ven sus ojos. Al fin el tirano cayó. Alexander te nombra en frente de todos como el nuevo Rey de Skagard. ¡La labor será ardua, pero juntos, con el apoyo del pueblo y las criaturas bondadosas del bosque podrán llevar al Reino a su antiguo esplendor!. FELICIDADES, GANASTE EL JUEGO. ESTE ES EL FINAL BUENO. VUELVE A PROBAR PERO ESTA VEZ SIN LA AYUDA DE ALEXANDER.",
 
         options: [
             {
